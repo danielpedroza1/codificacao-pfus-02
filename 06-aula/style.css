@@ -1,0 +1,46 @@
+/* Estabilização por tag */
+nav{
+    background-color: orange;
+}
+ul{
+    list-style-type: none;
+}
+li{
+   font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div{
+    background-color: rgb(50, 51, 49);
+}
+
+p{
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* estilização por id */
+#caixa-roxa{
+    background-color: purple;
+    color: white;
+    width: 200px;
+    height: 300px;
+}
+#caixa-rosa {
+    background-color: rgb(44, 77, 56);
+    color: white;
+    width: 1200px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* estilização por class */
+
+.minicaixa{
+    background-color: rgb(102, 97, 97);
+    font-size: 35px;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    
+}
