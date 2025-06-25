@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(58, 59, 58);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#principal{
+    width: 90%; 
+    height: 800px;
+    margin: auto;
+    background-color: rgb(69, 75, 75);
+    background-image: linear-gradient(black 10%, white 60%, black);
+}
+
+#secundario{
+     width: 90%; 
+    height: 2000px;
+    margin: auto;
+    background-color: rgb(212, 212, 212);
+    background-image: url("https://s2-ge.glbimg.com/gf7h8DIQBQx1J-pkF10wO-Tvau4=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/7/h/fYmPnASS2AXd96aABUPA/53923952043-f9e3709052-k.jpg");
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: 50%;
+    background-attachment: fixed;
+}
