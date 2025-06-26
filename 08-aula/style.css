@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+body{
+    background-color: rgb(41, 39, 39);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#na-direita{
+    text-align: right;
+}
+
+#na-esquerda{
+    text-align: left;
+}
+
+#no-centro{
+    text-align: center;
+}
+
+#justificado{
+    text-align: justify;
+}
+
+#minusculo{
+    text-transform: lowercase;
+}
+
+#maiusculo{
+    text-transform: uppercase;
+}
+
+#capitalizado{
+    text-transform: capitalize;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 400;
+    text-shadow: 5px 5px rgb(156, 42, 42);
+}
+
+#decorado{
+    text-decoration: overline underline purple;
+
+}
+
+#outra-fonte{
+    font-family: Impact, sans-serif;
+    color: blueviolet;
+}
+
+#fonte-google{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+@font-face {
+    font-family: 'RubikDistressed';
+    src: url("./fontes/RubikDistressed-Regular.ttf");
+}
+
+#Fonte-personalizada{
+    font-family: 'RubikDistressed', sans-serif;
+    font-size: 50px;
+}
