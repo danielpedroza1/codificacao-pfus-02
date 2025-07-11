@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+p{
+    font-size: 30px;
+    float:inline-start;
+    
+}
+
+#titulo{
+     display: flex;           
+    justify-content:center;
+    align-items: center;
+    color: white;
+    gap: 20px ;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+#historia{
+    background-color: black;
+    height: 120px;
+}
+
+#hts{
+    font-size: 20px;
+    font-weight: 900px;
+    color: white;
+    text-align: center;
+}
+
+#imagem{
+    display: block;
+    margin: auto;
+}
+#nice{
+    text-align: center;
+    color: white;
+}
+#link{
+    text-align: center;
+    width: 100%;
+    color: rgb(66, 66, 134);
+}
+

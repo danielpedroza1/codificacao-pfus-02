@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:beige
+}
+ #catalogo{ display: flex;           
+    justify-content:center;
+    align-items: center;
+    color: white;
+
+    background-color: black;
+    height: 80px;
+}
+p{
+    font-size: 30px;
+    float:inline-start;
+}
+#oo{
+    font-size: 30px;
+}

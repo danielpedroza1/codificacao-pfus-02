@@ -7,6 +7,11 @@ body{
     background-color: rgb(73, 73, 73);
 }
 
+header{
+   position: sticky;
+   top: 0px;
+}
+
 #navegacao{
     width:80%; /*largura do quadrado*/
     background-color: red;
@@ -16,6 +21,8 @@ body{
     color: white;
     font-size: 30px; /*tamanho letra */
     overflow: hidden;
+    position: sticky;
+    top: 0px;
 }
 
 .simbolo{
@@ -49,14 +56,14 @@ li:hover{
 }
 
 main{
-    background-color: aliceblue;
+    background-color: burlywood;
     height: 2000px; /*  tamanho do quadrado  */
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 15px;
     font-size: 30px;
-    color: white;
+    color: aliceblue;
 
 }
 
@@ -86,10 +93,24 @@ main{
     margin-top: 5px;
     display: inline-block;
     height: 200px;
-    text-align: center;
     line-height: 200px;
 }
+#linha{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
 
+.mini-linha{
+    background-color: whitesmoke;
+    margin-top: 5px;
+    height: 200px;
+    line-height: 200px;
+    width: 50%;
+    display: inline;
+}
 @media screen and (max-width: 900px){
    body{
     background-color: rgb(208, 208, 208);
@@ -146,5 +167,19 @@ main{
         margin-left: auto;
         margin-right: auto;
         font-size: 25px;
+    }
+    main{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .mini-bloco{
+        width: 80px;
+        font-size: 20px;
+    }
+
+    .mini-linha{
+        font-size: 20px;
+        line-height: 100px;
     }
 }
